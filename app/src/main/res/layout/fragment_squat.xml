@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/timerPlaceHolder"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".squat.SquatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hello_blank_fragment" />
+
+    <TextView
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textColor="@color/White"
+        android:textSize="50sp" />
+
+    <RelativeLayout
+        android:id="@+id/timerPlaceHolder"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

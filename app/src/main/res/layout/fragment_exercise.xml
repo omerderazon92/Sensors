@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exercise.ExerciseFragment"
+    android:background="@color/colorPrimaryDark"
+    >
+    <TextView
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textColor="@color/White"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:id="@+id/timerPlaceHolder"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:text="60"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="50sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
